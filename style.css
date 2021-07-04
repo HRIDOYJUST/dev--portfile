@@ -8,14 +8,19 @@ h1{
 
     font-size: 80px;
 }
+h3{
+    font-size: 40px;
+}
 
 .orange-color{
     color: orange;
+    
 }
-section{
+.section-1{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+    margin-bottom: 30px;
 
 }
 .hire-me-button{
@@ -34,4 +39,54 @@ section{
 }
 .half-first p{
     font-size: 40px;
+}
+.section-2{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.box{
+    display: flex;
+
+}
+.section-3{
+    margin-left: 5px;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.box-1,.box-2{
+    width: 50%;
+    padding: 100px;
+    margin: 100px;
+    box-shadow: -2px 2px 17px 7px grey;
+}
+.box-1:hover{
+    background-color: tomato;
+}
+
+.box-2:hover{
+    background-color: gray;
+}
+
+.box h1{
+    font-size: 50px;
+}
+.box-1{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,tomato,orange);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+.box-2{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,green,blue);
+    border-image-slice: 1;
+    border-radius: 10px;
+}
+footer{
+    text-align: center;
+    font-size: 16px;
 }
